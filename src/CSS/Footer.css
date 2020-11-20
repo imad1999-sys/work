@@ -1,0 +1,44 @@
+.jumbotron{
+    background-color: #40407a;
+}
+.icon-footer{
+    margin-right: 1100px;
+    color: #18dcff;
+}
+.icon-footer .fa-gamepad{
+    font-size: 80px;
+}
+.first-footer-list , .second-footer-list{
+    list-style-type: none;
+    text-align: left;
+}
+.first-footer-list li a , .second-footer-list li a {
+    color: #18dcff;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.first-footer-list li a:hover , .second-footer-list li a:hover {
+    color: #7d5fff;
+    text-decoration: none;
+}
+.copyright{
+    margin-left: 430px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: black;
+}
+.copyright a{
+    color: #18dcff;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.copyright a:hover{
+    color: #7d5fff;
+    text-decoration: none;
+}
+.region{
+    margin-bottom: 50px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #000000;
+}
+.region .fa-globe-americas{
+    margin-right: 10px;
+    color: #dcdde1;
+}

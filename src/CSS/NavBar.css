@@ -1,0 +1,26 @@
+.fa-gamepad{
+    font-size: 25px;
+}
+.site-title{
+    font-weight: 700;
+    font-family: 'Bitter', serif;
+}
+.playstation-link , .xbox-link , .items-link{
+    font-size: 16px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.fa-playstation{
+    color: #6c5ce7
+}
+.fa-xbox{
+    color : #26de81
+}
+.playstation-link :hover{
+    color: #3c40c6;
+}
+.xbox-link:hover{
+    color: #3c40c6;
+}
+.fa-shopping-cart {
+    color : #1e272e
+}

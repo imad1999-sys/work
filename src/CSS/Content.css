@@ -1,0 +1,10 @@
+img{
+    height: 500px;
+}
+.playstation  , .xbox{
+    font-size: 60px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.playstation-title , .xbox-title{
+    font-family: 'Baloo Da 2', cursive;
+}
