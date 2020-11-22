@@ -1,0 +1,52 @@
+.accordion {
+  width: 450px;
+}
+.grid-cards {
+  margin-right: 100px;
+}
+.brand-choices,
+.price-choice,
+.date-choice,
+.condition-choice {
+  list-style: none;
+  text-align: left;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.brand-choices li,
+.price-choice li,
+.date-choice li,
+.condition-choice li {
+  margin-bottom: 10px;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.title-brand,
+.title-price,
+.title-date,
+.title-condition {
+  font-family: "Baloo Tammudu 2", cursive;
+  color: #2d3436;
+  font-size: 25px;
+}
+.title-brand:hover,
+.title-price:hover,
+.title-date:hover,
+.title-condition:hover {
+  font-family: "Baloo Tammudu 2", cursive;
+  color: #000000;
+  text-decoration: none;
+}
+.fa-copyright,
+.fa-dollar-sign,
+.fa-calendar-alt,
+.fa-question-circle {
+  margin-right: 10px;
+}
+.btn-outline-info {
+  font-family: "Baloo Tamma 2", cursive;
+}
+.card-title {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.card-text {
+  font-family: "Baloo Paaji 2", cursive;
+}
