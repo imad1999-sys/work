@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PlayStation from "../Images/playstation.jpg";
 import Xbox from "../Images/xbox.jpg";
 import "../CSS/Content.css";
+import { Link } from "react-router-dom";
 export default class Content extends Component {
   render() {
     return (
@@ -25,7 +26,7 @@ export default class Content extends Component {
               <div class="carousel-caption d-none d-md-block">
                 <h2 className="playstation">PlayStations</h2>
                 <p className="playstation-title">
-                  to see more info about playstations <a class="btn btn-outline-info"> <i class="fas fa-info-circle"></i> Click Here</a>
+                  to see more info about playstations <Link class="btn btn-outline-info" to="/playstation"> <i class="fas fa-info-circle"></i> Click Here</Link>
                 </p>
               </div>
             </div>
@@ -34,7 +35,7 @@ export default class Content extends Component {
               <div class="carousel-caption d-none d-md-block">
                 <h2 className="xbox">Xboxs</h2>
                 <p className="xbox-title">
-                  to see more info about xboxs <a class="btn btn-outline-info"> <i class="fas fa-info-circle"></i> Click Here</a>
+                  to see more info about xboxs <Link class="btn btn-outline-info" to="/xbox"> <i class="fas fa-info-circle"></i> Click Here</Link>
                 </p>
               </div>
             </div>

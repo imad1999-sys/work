@@ -8,6 +8,7 @@ import Three from "../Images/PlayStation/3.jpg";
 import Four from "../Images/PlayStation/4.jpg";
 import Five from "../Images/PlayStation/5.jpg";
 import Six from "../Images/PlayStation/6.jpg";
+import { Link } from "react-router-dom";
 export default class PlayStationPage extends Component {
   render() {
     return (
@@ -359,11 +360,11 @@ export default class PlayStationPage extends Component {
                     </h5>
                     <p class="card-text">Price : $50.27</p>
                     <p class="card-text">By PlayStation</p>
-                    <a href="#" className="btn btn-outline-info">
+                    <Link href="#" className="btn btn-outline-info" to="/playstation/details1">
                       {" "}
                       <i class="fas fa-info-circle"></i>
                       View Details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -390,11 +391,11 @@ export default class PlayStationPage extends Component {
                     </h5>
                     <p class="card-text">Price: $350</p>
                     <p class="card-text">By Sony</p>
-                    <a href="#" className="btn btn-outline-info">
+                    <Link className="btn btn-outline-info" to="/playstation/details2">
                       {" "}
                       <i class="fas fa-info-circle"></i>
                       View Details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -418,11 +419,11 @@ export default class PlayStationPage extends Component {
                     </h5>
                     <p class="card-text">Price : $550.11</p>
                     <p class="card-text">By NexiGo</p>
-                    <a href="#" className="btn btn-outline-info">
+                    <Link className="btn btn-outline-info" to="/playstation/details3">
                       {" "}
                       <i class="fas fa-info-circle"></i>
                       View Details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -449,11 +450,11 @@ export default class PlayStationPage extends Component {
                     </h5>
                     <p class="card-text">Price: $420</p>
                     <p class="card-text">By Mytrix</p>
-                    <a href="#" className="btn btn-outline-info">
+                    <Link className="btn btn-outline-info" to="/playstation/details4">
                       {" "}
                       <i class="fas fa-info-circle"></i>
                       View Details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -477,11 +478,11 @@ export default class PlayStationPage extends Component {
                     </h5>
                     <p class="card-text">Price: $125</p>
                     <p class="card-text">By Seagate</p>
-                    <a href="#" className="btn btn-outline-info">
+                    <Link className="btn btn-outline-info" to="/playstation/details5">
                       {" "}
                       <i class="fas fa-info-circle"></i>
                       View Details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -508,11 +509,11 @@ export default class PlayStationPage extends Component {
                     </h5>
                     <p class="card-text">Price: $48.25</p>
                     <p class="card-text">By Logitech G</p>
-                    <a href="#" className="btn btn-outline-info">
+                    <Link className="btn btn-outline-info" to="/playstation/details6">
                       {" "}
                       <i class="fas fa-info-circle"></i>
                       View Details
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
